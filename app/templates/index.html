@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Words</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>German Words Practice</h1>
+        <form id="studentForm">
+            <div class="dropdown">
+                <button class="dropbtn">Choose your practise option</button>
+                <div class="dropdown-content">
+                  <a href="e2g">English to German</a>
+                  <a href="g2e">German to English</a>
+                </div>
+              </div>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
