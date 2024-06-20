@@ -4,7 +4,7 @@ Got sick of ads from Quizlet, so decided to create a program that makes an exper
 
 ## Overview
 
-The .csv file has 3 columns: german_words, english_words, times_correct_g2e and times_correct_e2g.
+The .csv file has 4 columns: german_words, english_words, times_correct_g2e and times_correct_e2g.
 
 ### german_words
 - Self explanatory: the word in German.
