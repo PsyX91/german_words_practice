@@ -5,7 +5,6 @@
 # Import required modules
 import pandas as pd # Dataframes
 from random import randint # Random number generator
-from flask import Flask, render_template # Web UI
 import tkinter as tk # Local GUI, no browser
 
 # Read the .csv file containing the words
@@ -141,6 +140,11 @@ def local_gui():
 
         # Writes scores on each word in file
         df_words.to_csv("core_files/german_words.csv", index=0)
-        
 
-local_gui()
+
+# Uncomment to test local Tkiner GUI
+#local_gui()
+
+#------------------------
+
+# Flask app in /app/app.py
