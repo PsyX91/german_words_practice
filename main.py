@@ -85,7 +85,7 @@ def local_gui():
 
             while True:
                 index = randint(0,len(df_words))
-                if randint(0,df_words.iloc[index,option+2]) == 1 or df_words.iloc[index,option+2]<0:
+                if randint(0,df_words.iloc[index,option+2]) == 0 or df_words.iloc[index,option+2]<0:
                     break
 
 
